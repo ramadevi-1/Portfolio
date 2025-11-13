@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.top-nav {
+    display: flex;
+    justify-content: flex-start; 
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #007bff;
+}
+
+.nav-links img {
+    width: 24px; 
+    height: 24px;
+    margin-right: 5px;
+}
+
+h1{
+    margin-top: 45px;
+    text-align: center;
+}
+#pro{
+    /* border: 1px solid black; */
+    height: 650px;
+    width: 85%;
+    margin-left: 100px;
+}
+#project{
+    /* margin-top: 20px; */
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.one{
+    margin: 10px;
+    margin-left: 60px;
+    height: 540px;
+    width: 430px;
+    border: 1px solid black;
+    border-radius: 14px;
+}
+.pic{
+   height: 200px;
+   width: 420px;
+   margin-top: 3.5px;
+   margin-left: 3.5px;
+}
+.para{
+    margin-left: 3px;
+    font-size: 20px;
+}
+.orderedlist{
+    margin-left: 10px;
+    font-size: 16px;
+}
+.list{
+    margin-left: 20px;
+    font-size: 17px;
+}
+.unorderedlist{
+    margin-left: 10px;
+}
+.unlist{
+    margin-left: 20px;
+}
+h3{
+    margin-left: 5px;
+}
+.btn{
+    margin-left: 180px;
+    height: 35px;
+    width: 65px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.pic1{
+    height: 210px;
+    width: 430px;
+    border: 0px solid black;
+    border-radius: 14px;
+}
+#info{
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-left: 4px;
+    font-size: 17px;
+}
+#tech{
+    margin-top: 4px;
+}
+.contact{
+    width: 500px;
+    height: 500px;
+    /* border: 1px solid black; */
+    margin-left: 450px;
+    margin-top: 41px;
+}
+input{
+    height: 35px;
+    width: 450px;
+    margin-left: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+textarea{
+    margin-top: 5px;
+    margin-left: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.send{
+    margin-top: 20px;
+    height: 30px;
+    width: 150px;
+    margin-left: 165px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ ::placeholder{
+   padding-left: 5px;
+}
